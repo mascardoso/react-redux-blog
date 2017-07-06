@@ -1,5 +1,5 @@
-### Blog React Redux
-A simple Blog React Application with Redux
+### Blog React Redux React-Router
+A simple Blog React Application with Redux and React Router
 
 ### Demo
 https://mascardoso.github.io/react-redux-blog/
