@@ -6,7 +6,7 @@
   "repository": "https://github.com/mascardoso/react-redux-blog.git",
   "scripts": {
     "start": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js",
-    "build": "rm -rf ./build && webpack -p && cp index.html ./build && mkdir ./build/style && cp style/style.css ./build/style",
+    "build": "rm -rf ./build && mkdir ./build/ && webpack -p && cp index.html ./build && mkdir ./build/style && cp style/style.css ./build/style",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
@@ -19,6 +19,7 @@
     "babel-preset-es2015": "^6.1.18",
     "babel-preset-react": "^6.1.18",
     "jsdom": "^8.1.0",
+    "gh-pages": "^1.0.0",
     "react-addons-test-utils": "^0.14.7",
     "webpack": "^1.12.9",
     "webpack-dev-server": "^1.14.0"
